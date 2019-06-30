@@ -1,0 +1,11 @@
+server:
+  port: 3112
+spring:
+  application:
+    name: hystrix-server
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone : http://peer1:1111/eureka/

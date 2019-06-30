@@ -1,0 +1,13 @@
+server:
+  port: 5111
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qqloli/SpringCloud-Learning/
+          search-paths: spring_cloud_in_action/config-repo
+          username: qqloli
+          password: zj1314520172
